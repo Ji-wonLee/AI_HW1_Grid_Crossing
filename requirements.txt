@@ -1,0 +1,6 @@
+gymnasium>=1.0.0
+kymnasium>=1.0.0
+torch>=2.0.0
+numpy>=1.21.0
+pygame>=2.6.1
+matplotlib>=3.5.0

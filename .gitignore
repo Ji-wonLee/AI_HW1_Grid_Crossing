@@ -1,0 +1,15 @@
+# 파이썬 캐시 파일
+__pycache__/
+*.pyc
+
+# 가상 환경 폴더
+grid_env/
+venv/
+.venv/
+
+# 모델 파일 등 용량이 큰 파일
+models/
+*.pkl
+
+# 기타
+.DS_Store
