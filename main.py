@@ -112,7 +112,7 @@ class YourAgent(kym.Agent):
                 data = pickle.load(f)
                 agent.q_table = data.get('q_table', {})
                 # 평가시 epsilon을 매우 낮게 설정
-                agent.epsilon = 0.01  # 거의 greedy하게
+                agent.epsilon = 0.0  #  greedy하게
                 agent.learning_rate = data.get('learning_rate', 0.1)
                 agent.discount_factor = data.get('discount_factor', 0.95)
                 agent.min_epsilon = data.get('min_epsilon', 0.01)
